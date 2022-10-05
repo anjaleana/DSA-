@@ -10,7 +10,7 @@ Day1 :
          b.Contant time : Big o(1)
          c.Quadratic time : Big  o(n^2)
          
-         ![big-o-notation](https://user-images.githubusercontent.com/40524194/194045068-a9e68111-df8b-4cf9-94e4-26b56f40fd3d.jpg)
+         ![big-o-notation](https://user-images.githubusercontent.com/40524194/194046278-d7db20d5-fb42-41e4-b091-1b672a3917a3.jpg)
 
          
          How to say big oh o(n) or o(n^2).? There are two points
