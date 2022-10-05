@@ -16,7 +16,7 @@ Day1 :
          
          1. Need to know fastest growing term
          2. Take out the coefficient.
- Day2 : Exercise related to conplexity.
+ Day2 : Exercise related to complexity.
          
 
 Day3 :
