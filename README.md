@@ -2,7 +2,7 @@
 Data Structure and Algoritms
 
 
-Day1 :
+Day1 & Day2 :
 
  1. Need to understand space and time complexity
           
@@ -16,16 +16,25 @@ Day1 :
          
          1. Need to know fastest growing term
          2. Take out the coefficient.
- Day2 : Exercise related to complexity.
-         
+Day3 to Day 10:
 
-Day3 and Day 4:
-    Recursion- 1. theory understanding
-               2. question practices
-Day 5 and Day 6,7:
-       Arrays
+       Recursion and backtracking, one of the most importanct concepts(Need to strong)
        
-Day 8,9, and 10 :
-       Linkedlist
+Day 11 to Day 20:
+       Arrays , linkedlist and Stacks and Queues
+       
+Can start contest, on hackerrank/leetcode/codestudio
+
+Day 21 to 31 :
+        Bubble sorting, insertion sorting, selection sort, merge sort , quick sort,
+Day 31 to 41:
+         Trees, hashtables, hashmaps, sliding window
+Day 42 to 70 :
+          Graphs, DP
+
+Day 71 to 80:
+       oops
+Day 81 to 90 days:
+       Continuing coding practice and learn new things
          
     
