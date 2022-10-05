@@ -19,6 +19,13 @@ Day1 :
  Day2 : Exercise related to complexity.
          
 
-Day3 :
-    Recursion
+Day3 and Day 4:
+    Recursion- 1. theory understanding
+               2. question practices
+Day 5 and Day 6,7:
+       Arrays
+       
+Day 8,9, and 10 :
+       Linkedlist
+         
     
