@@ -20,16 +20,16 @@ Day3 to Day 10:
 
        Recursion and backtracking, one of the most importanct concepts(Need to strong)
        
-Day 11 to Day 18:
+Nov5 to Nov 11
        Arrays , linkedlist and Stacks and Queues
        
-Can start contest, on hackerrank/leetcode/codestudio
+Can start contest, on hackerrank/codestudio/geeksforgeeks
 
-Day 19 to 20 :
+Nov 12 to 20 :
         Bubble sorting, insertion sorting, selection sort, merge sort , quick sort,
-Day 21 to 28:
+Nov 21 to 26:
          Trees, hashtables, hashmaps, sliding window
-Day 29 to 36 :
+Nov 27 to 30 :
           Graphs, DP
 
 Day 37 to 47:
