@@ -1,0 +1,71 @@
+### Positive Cumulative Sum
+The cumulative sum of an array at index i is defined as the sum of all elements of the array from index 0 to index i.
+
+
+
+class Solution:
+    def getPositiveCumulativeSum(self, arr):
+        # add your logic here
+        list1 = []
+        a = 0
+        for i in range(len(arr)):
+            a = a+arr[i]
+            list1.append(a)
+        cumsum = [x for x in list1 if x > 0]
+    
+        return cumsum
+    
+object1 = Solution()
+arr = [1, -2, 3, 4, -6]
+result = object1.getPositiveCumulativeSum(arr)
+print(result)
+
+### Cumulative Sum
+class Solution:
+    def getCumulativeSum(self, arr):
+        # add your logic here
+        list1 = []
+        a = 0
+        for i in range(len(arr)):
+            a = a+arr[i]
+            list1.append(a)
+        return list1
+    
+object1 = Solution()
+arr = [1, 2, 3, 4]
+result = object1.getCumulativeSum(arr)
+print(result)
+
+Question : ### For an array of integers nums, an identical twin is defined as pair (i, j) where nums[i] is equal to nums[j] and i < j.
+
+nums = [1, 2, 3, 2, 4, 3, 5]
+hash_table = {}
+good_pair = 0
+
+for num in nums:
+    if num in hash_table:
+        good_pair += len(hash_table[num])
+        
+        hash_table[num].append(num)
+        print("AA:",hash_table[num])
+    else:
+        hash_table[num] = [num]
+        print("BB:",hash_table[num])
+print(good_pair)
+
+Time complexity for above solution is : O(n) and space complexity : O(n)
+
+Question : ### Given an array of integers, find the elements which have an even number of digits.
+
+class Solution:
+    def getEvenDigitNumbers(self, arr):
+        # add your logic here
+        even_digit_number = []
+        for num in arr:
+            if len(str(num))%2==0:
+                even_digit_number.append(num)
+        return even_digit_number
+    
+object1 = Solution()
+arr = [42, 564, 5775, 34, 123, 454, 1, 5, 45, 3556, 23442]
+print(object1.getEvenDigitNumbers(arr))
