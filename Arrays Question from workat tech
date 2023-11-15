@@ -124,3 +124,36 @@ for i in a:
     else:
         list1 = []
 print(count)
+
+Question : ### Given a positive integer num, write a function that returns true if num is a perfect square else false.
+
+Note: Do not use the in-built methods to calculate square root or power.
+
+Code :
+num = 30
+# calculate square root without using predefined function
+
+square_num = int(num**0.5)
+
+if square_num**2 == num:
+    print("perfect square")
+else:
+    print("not perfect square")
+-------------The above code's time complexity is O(n) and space complexity : O(1)----------
+
+Alternate code:
+num = 25
+left =0 
+right = num
+midsquared=0
+while left<=right:
+    mid = left+(right-left)//2
+    midsqured = mid*mid
+    if midsquared==num:
+        print("true")
+    elif midsquared<num:
+        left = mid+1
+    else:
+        right = mid-1
+
+------------The above code's time complexity is O(logn) and space complexity : O(1)-----------
